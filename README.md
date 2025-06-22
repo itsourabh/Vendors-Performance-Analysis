@@ -24,6 +24,7 @@ SQLAlchemy (optional)
 Matplotlib / Seaborn
 
 📂 Data Flow
+
 Data Ingestion
 Import CSV into SQLite3 using sqlite3 or SQLAlchemy.
 
@@ -54,16 +55,27 @@ kotlin
 Copy
 Edit
 ├── data/
+
 │   └── raw_sales.csv
+
 ├── scripts/
+
 │   ├── ingest_data.py
+
 │   ├── clean_transform.py
+
 │   └── analyze_performance.py
+
 ├── results/
+
 │   └── vendor_summary_table.csv
+
 │   └── visualizations/
+
 │       └── top_vendors.png
+
 ├── vendor_analysis.db
+
 ├── README.md
 
 📌 Sample SQL Query
